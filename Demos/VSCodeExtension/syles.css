@@ -1,0 +1,18 @@
+/* This is a Css comment */
+/* ? question comment */
+/* ! alert comment */
+
+body
+{
+    background-color:darkblue;
+}
+h1
+{
+    color:lawngreen;
+    background-color:blue;
+    padding:1rem;
+}
+ul
+{
+    font-family: 'Courier New', Courier, monospace;
+}

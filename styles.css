@@ -1,0 +1,106 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: red;
+}
+.container {
+  min-height: 10rem;
+  max-width: 75r;
+  margin: auto;
+  background-color: white;
+  padding: 1rem;
+}
+#pageheader {
+  background-color: none;
+  min-height: auto;
+  padding: 1rem;
+}
+#logo {
+  width: 6.25rem;
+  height: 6.25rem;
+  background-color: none;
+  background-image: url(images/logosmall.png);
+}
+
+#pageheader .container {
+  background-color: none;
+  min-height: auto;
+  text-align: center;
+}
+
+#media {
+  background-color: lightblue;
+  min-height: 10rem;
+  padding: 1rem;
+  background-image: url(images/Hero.png);
+  background-size: cover;
+  aspect-ratio: 16/9;
+}
+
+#career {
+  background-color: none;
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#pagecontent {
+  background-color: lightgreen;
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#semester1 {
+  background-color: plum;
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#semester2 {
+  background-color: brown;
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#pagefooter {
+  background-color: cornflowerblue;
+  min-height: auto;
+  padding: 1rem;
+}
+#pagefooter .container {
+  text-align: center;
+  min-height: auto;
+}
+
+#subfooter {
+  background-color: darkorchid;
+  min-height: 10rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+audio {
+  display: block;
+  margin: auto;
+  background-color: red;
+  border: 5px solid red;
+}
+blockquote {
+  background-color: none;
+  padding: 1rem;
+  width: 50%;
+  margin: 0 auto;
+  font-sizae: 1.25rem;
+}
+
+blockquote + span {
+  padding: 1rem;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  text-align: right;
+  font-size: 1.25rem;
+}
+span {
+  background-color: none;
+}
