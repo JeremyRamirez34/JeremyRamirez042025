@@ -27,6 +27,22 @@ body {
   background-color: none;
   min-height: auto;
   text-align: center;
+  padding: 0;
+}
+#pageheader nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#pageheader nav ul li {
+  border: 2px solid silver;
+  padding: 1rem;
+  background-color: lightblue;
+  margin: 2px;
+  border-radius: 10px;
+}
+#pageheader nav ul li:hover {
+  background-color: red;
 }
 
 #media {
@@ -71,6 +87,15 @@ body {
   text-align: center;
   min-height: auto;
 }
+#aifooter {
+  background-color: seagreen;
+  padding: 1rem;
+  min-height: auto;
+}
+#aifooter.container {
+  text-align: center;
+  min-height: auto;
+}
 
 #subfooter {
   background-color: darkorchid;
@@ -103,4 +128,20 @@ blockquote + span {
 }
 span {
   background-color: none;
+}
+
+@media screen and(min-width:600px) {
+  #pageheader nav ul {
+    background-color: yellow;
+    margin-top: 2rem;
+  }
+  #pageheader nav ul li {
+    display: block;
+  }
+  #pqgecontent {
+    background-color: red;
+  }
+  #career {
+    background-color: blue;
+  }
 }
