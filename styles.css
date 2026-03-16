@@ -1,3 +1,10 @@
+/* Mobile View - Default */
+root {
+  background-color: red;
+  background-color: lime;
+  background-color: blue;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -35,9 +42,9 @@ body {
   padding: 0;
 }
 #pageheader nav ul li {
-  border: 2px solid silver;
+  border: 2px solid rgb(255, 0, 0);
   padding: 1rem;
-  background-color: lightblue;
+  background-color: rgb(255, 4, 0);
   margin: 2px;
   border-radius: 10px;
 }
@@ -67,19 +74,19 @@ body {
 }
 
 #semester1 {
-  background-color: plum;
+  background-color: rgb(255, 3, 3);
   min-height: 10rem;
   padding: 1rem;
 }
 
 #semester2 {
-  background-color: brown;
+  background-color: red;
   min-height: 10rem;
   padding: 1rem;
 }
 
 #pagefooter {
-  background-color: cornflowerblue;
+  background-color: rgb(255, 0, 0);
   min-height: auto;
   padding: 1rem;
 }
@@ -88,7 +95,7 @@ body {
   min-height: auto;
 }
 #aifooter {
-  background-color: seagreen;
+  background-color: rgb(255, 1, 1);
   padding: 1rem;
   min-height: auto;
 }
@@ -98,7 +105,7 @@ body {
 }
 
 #subfooter {
-  background-color: darkorchid;
+  background-color: rgb(255, 2, 2);
   min-height: 10rem;
   padding: 1rem;
   text-align: center;
@@ -109,6 +116,14 @@ audio {
   margin: auto;
   background-color: red;
   border: 5px solid red;
+}
+@media screen and (min-width: 500px;) {
+  body {
+    background-color: yellow;
+  }
+  #logo {
+    margin: 0;
+  }
 }
 blockquote {
   background-color: none;
@@ -129,7 +144,7 @@ blockquote + span {
 span {
   background-color: none;
 }
-
+/* tablet view */
 @media screen and(min-width:600px) {
   #pageheader nav ul {
     background-color: yellow;
@@ -138,9 +153,10 @@ span {
   #pageheader nav ul li {
     display: block;
   }
-  #pqgecontent {
+  #pagecontent {
     background-color: red;
   }
+
   #career {
     background-color: blue;
   }
